@@ -1,0 +1,237 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
+      "projectApiToken": "DIkcfhBwjMCJSjcxfBkMuy4NImyytq5EWylxVcpS9t9EpdhnPQuBgBGxmk00AB1itMFa1KXTxOKnrjN2PN9nlA",
+      "projectName": "react-awesome-reveal",
+      "version": "2.1.2",
+      "cssFilePath": "plasmic/react_awesome_reveal/plasmic_react_awesome_reveal.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "R6s1FdhksG",
+          "name": "Reveal",
+          "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
+        }
+      ],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "84wxoth5npGrp6RRXPL88z",
+      "projectApiToken": "hOzXksPB8gkTrKnfJeV9VDS8m8dnIXQn1xxDQZ5MHxv9orQY6JNgwmk6aDMZPLkocV2KtD9gNJXv5JwIbbzIQ",
+      "projectName": "react-scroll-parallax-global",
+      "version": "4.0.1",
+      "cssFilePath": "plasmic/react_scroll_parallax_global/plasmic_react_scroll_parallax_global.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/react_scroll_parallax_global/PlasmicGlobalContextsProvider.tsx",
+      "codeComponents": [
+        {
+          "id": "bozP4lLlAZ",
+          "name": "ParallaxWrapper",
+          "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
+        },
+        {
+          "id": "L6MfauX2Cw",
+          "name": "ParallaxProviderWrapper",
+          "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
+        }
+      ],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "4Z3UMkZpk9iU1tNC7ianWh",
+      "projectApiToken": "0SFAR9GkNMiUXdb4d2yxDiKhViNjFGfl1PN4RPwyB6GImUZ6eilcqgZ4IVsRyGTKQWl3YQJ5qFtYhCtEqQ",
+      "projectName": "The Damned Wireframe  v1",
+      "version": "latest",
+      "cssFilePath": "plasmic/the_damned_wireframe_v_1/plasmic_the_damned_wireframe_v_1.module.css",
+      "components": [
+        {
+          "id": "kWxJ1fA34dtB",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "4Z3UMkZpk9iU1tNC7ianWh",
+          "renderModuleFilePath": "plasmic/the_damned_wireframe_v_1/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/the_damned_wireframe_v_1/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "9U02DESJlfv",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "4Z3UMkZpk9iU1tNC7ianWh",
+          "renderModuleFilePath": "plasmic/the_damned_wireframe_v_1/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/the_damned_wireframe_v_1/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "OWTL5yNhla1",
+          "name": "NftButton",
+          "type": "managed",
+          "projectId": "4Z3UMkZpk9iU1tNC7ianWh",
+          "renderModuleFilePath": "plasmic/the_damned_wireframe_v_1/PlasmicNftButton.tsx",
+          "importSpec": {
+            "modulePath": "NftButton.tsx"
+          },
+          "cssFilePath": "plasmic/the_damned_wireframe_v_1/PlasmicNftButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "5OPwbvd_XQK",
+          "name": "MainMenu",
+          "type": "managed",
+          "projectId": "4Z3UMkZpk9iU1tNC7ianWh",
+          "renderModuleFilePath": "plasmic/the_damned_wireframe_v_1/PlasmicMainMenu.tsx",
+          "importSpec": {
+            "modulePath": "MainMenu.tsx"
+          },
+          "cssFilePath": "plasmic/the_damned_wireframe_v_1/PlasmicMainMenu.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "mYuKdlljvqg",
+          "name": "Story",
+          "type": "managed",
+          "projectId": "4Z3UMkZpk9iU1tNC7ianWh",
+          "renderModuleFilePath": "plasmic/the_damned_wireframe_v_1/PlasmicStory.tsx",
+          "importSpec": {
+            "modulePath": "Story.tsx"
+          },
+          "cssFilePath": "plasmic/the_damned_wireframe_v_1/PlasmicStory.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "9vaXCj4SKKO",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/the_damned_wireframe_v_1/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "gfMcd0a2-6W",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/the_damned_wireframe_v_1/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "odUkh9DYHA",
+          "name": "ProfileSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/the_damned_wireframe_v_1/icons/PlasmicIcon__ProfileSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "tNgMEKChU2h",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/the_damned_wireframe_v_1/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "LtVGMxllJxP",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/the_damned_wireframe_v_1/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "ggakMPa4rUs",
+          "name": "Icon14Icon",
+          "moduleFilePath": "plasmic/the_damned_wireframe_v_1/icons/PlasmicIcon__Icon14.tsx"
+        },
+        {
+          "id": "MKtC6T2ChXX",
+          "name": "ArrowRightsvgIcon",
+          "moduleFilePath": "plasmic/the_damned_wireframe_v_1/icons/PlasmicIcon__ArrowRightsvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "njSfrrcy2",
+          "name": "image",
+          "filePath": "plasmic/the_damned_wireframe_v_1/images/image.png"
+        },
+        {
+          "id": "5r8CARyHQ",
+          "name": "audio.png",
+          "filePath": "plasmic/the_damned_wireframe_v_1/images/audiopng.png"
+        },
+        {
+          "id": "zz4X42Fn_",
+          "name": "audio.png 2",
+          "filePath": "plasmic/the_damned_wireframe_v_1/images/audiopng2.png"
+        },
+        {
+          "id": "YVC1IxiaDSO",
+          "name": "image 2",
+          "filePath": "plasmic/the_damned_wireframe_v_1/images/image2.jpeg"
+        },
+        {
+          "id": "dRsY0p5OQJR",
+          "name": "image 3",
+          "filePath": "plasmic/the_damned_wireframe_v_1/images/image3.jpeg"
+        },
+        {
+          "id": "r7ahpyQwPe5",
+          "name": "image 4",
+          "filePath": "plasmic/the_damned_wireframe_v_1/images/image4.jpeg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/the_damned_wireframe_v_1/PlasmicGlobalContextsProvider.tsx",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "sKPzWh1XRaeiy",
+        "name": "Screen",
+        "projectId": "4Z3UMkZpk9iU1tNC7ianWh",
+        "contextFilePath": "plasmic/the_damned_wireframe_v_1/PlasmicGlobalVariant__Screen.tsx"
+      },
+      {
+        "id": "uk6IcAqcUP",
+        "name": "UnnamedGlobalGroupOfVariants",
+        "projectId": "4Z3UMkZpk9iU1tNC7ianWh",
+        "contextFilePath": "plasmic/the_damned_wireframe_v_1/PlasmicGlobalVariant__UnnamedGlobalGroupOfVariants.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.182",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.182/dist/plasmic.schema.json"
+}

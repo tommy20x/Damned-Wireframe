@@ -1,0 +1,337 @@
+.root {
+  flex-direction: column;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  min-width: 0;
+  min-height: 0;
+  padding: 0px 408px 0px 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 16px;
+}
+.header {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  right: auto;
+  min-width: 0;
+  padding: 8px;
+}
+.mainMenu:global(.__wab_instance) {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 1;
+  margin-left: 44px;
+  flex-shrink: 0;
+}
+@media (max-width: 1000px) {
+  .mainMenu:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .mainMenu:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
+.mainMenusynced:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.spacer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 64px;
+  max-width: 100%;
+  min-width: 11px;
+  padding: 8px;
+}
+.profile {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  left: auto;
+  top: 0px;
+  right: 0px;
+  transition-property: all;
+  transition-duration: 1s;
+  padding: 0px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .profile {
+    opacity: 0;
+    display: flex;
+  }
+}
+.freeBox__epflS {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.testing {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: 90px;
+  max-width: 100%;
+  padding: 8px;
+  border-width: 1px;
+  border-style: dashed;
+}
+.testingFunctions {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}
+.button:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__b08Ah {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__zergq {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.freeBox___5HOlO {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.syncButton:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  left: auto;
+  top: auto;
+  right: auto;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .syncButton:global(.__wab_instance) {
+    left: auto;
+    top: auto;
+    right: auto;
+    display: flex;
+  }
+}
+.syncButtonsynced:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+  right: auto;
+}
+.svg___5HrYg {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__cmyOr {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+.link {
+  position: relative;
+  display: flex;
+  text-align: center;
+}
+.text {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  text-align: center;
+  min-width: 0;
+}
+.freeBox___8Wyow {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.reveal__ufKEa:global(.__wab_instance) {
+  max-width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1460px;
+  height: 1004px;
+  flex-shrink: 0;
+  display: none;
+}
+.img__no8Ea {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  min-height: 216px;
+  max-height: 1073px;
+  object-position: 50% 80%;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+.img__no8Ea > picture > img {
+  object-fit: cover;
+  object-position: 50% 80%;
+}
+.img__no8Ea > .__wab_img-spacer > img {
+  object-fit: cover;
+  object-position: 50% 80%;
+}
+.reveal___6R2Cn:global(.__wab_instance) {
+  max-width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1460px;
+  height: 1042px;
+  transition-property: all;
+  transition-duration: 1s;
+  flex-shrink: 0;
+  display: none;
+}
+.img__v3QdF {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  min-height: 216px;
+  max-height: 1073px;
+  object-position: 50% 80%;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+.img__v3QdF > picture > img {
+  object-fit: cover;
+  object-position: 50% 80%;
+}
+.img__v3QdF > .__wab_img-spacer > img {
+  object-fit: cover;
+  object-position: 50% 80%;
+}
+.mainContent {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  left: 0px;
+  top: 0px;
+  min-width: 0;
+  padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .mainContent {
+    padding: 9px 9px 9px 156px;
+  }
+}
+.h1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 1720px;
+  margin-bottom: 32px;
+  transition-property: all;
+  transition-duration: 1s;
+  letter-spacing: 1px;
+  min-width: 0;
+  padding: 10px 10px 10px 319px;
+}
+@media (max-width: 1000px) {
+  .h1 {
+    margin-left: 0px;
+    padding-left: 225px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .h1 {
+    max-width: 58px;
+    width: 100%;
+    font-size: 43px;
+    letter-spacing: 1px;
+    min-width: 0;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+.story:global(.__wab_instance) {
+  position: relative;
+  margin: 230px 0px 0px;
+}
